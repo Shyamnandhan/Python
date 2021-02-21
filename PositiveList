@@ -1,0 +1,12 @@
+'''
+To write a program to print all
+positive numbers in a range
+'''
+
+l=[12,-7,5,64,-14]
+ol=[]
+print("Input:",l)
+for i in l:
+  if i>0:
+      ol.append(i)
+print("Output:",ol)
