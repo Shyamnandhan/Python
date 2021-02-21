@@ -1,0 +1,16 @@
+'''
+To write a program for fibanocci numbers
+'''
+
+a=0
+b=1
+n=int(input("Enter the how many numbers in fibanocci series:"))
+print(a)
+print(b)
+i=2
+while(i<n):
+  sum=a+b
+  print(sum)
+  a=b
+  b=sum
+  i+=1
